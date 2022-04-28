@@ -8,7 +8,14 @@
     position: fixed;
     width: 100%;
 }
-
+@media screen and (max-width: 770px)
+{
+    .nav{
+        background-color: black;
+        position: fixed;
+        width: 50%;
+    }
+}
 .nav .nav-content ul{
     display: flex;
 }
@@ -35,7 +42,7 @@
 .logo{
     width: 140px;
     position: absolute;
-    top: 4%;
+    top: 10%;
     left: 10%;
 }
 .banner-text{
@@ -72,7 +79,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(233, 8, 8);
+    background: white;
     z-index: -1;
 }
 .banner-btn a:hover span{
@@ -322,7 +329,7 @@ hr{
     margin-right: 20px;
     border-radius: 3px;
 }
-.user-info .fa{
+.user-info i{
     margin-left: 10px;
     color: #27c0ff;
     font-size: 20px;
